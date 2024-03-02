@@ -1,0 +1,129 @@
+* {
+    background-color: #374151;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.todo{
+    padding: 30px 0;
+    &__header {
+        text-align: center;
+        margin-bottom: 25px;
+        color: #778671;
+        font-size: 50px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__input {
+        padding: 0 10px;
+        width: 800px;
+        height: 50px;
+        border-radius: 20px;
+        color: white;
+        background-color: #1F2937;
+        &::placeholder{
+            color: #6B7280;
+        }
+    }
+    &__button {
+        font-size: 25px;
+        border: none;
+        span {
+            background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #B38295, #9690F0);
+        }
+    }
+}
+
+.tasks{
+    &__title {
+        color: #778671;
+        display: none;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    &__content {
+        width: 100%;
+    }
+    &__input {
+        border: none;
+        background-color: #1F2937;
+        display: block;
+        height: 50px;
+        width: 100%;
+        padding: 0 15px;
+        border-radius: 20px;
+        transition: all 1s;
+        color: white;
+        &:focus {
+            color: #E14545;
+            outline: none;
+            border: none;
+        }
+    }
+    &__actions {
+        display: flex;
+        background-color: #1F2937;
+        margin: 0 -20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        &-head {
+            margin: 0 15px;
+            transition: all 1s;
+            font-weight: 700;
+            font-size: 20px;
+            border: none;
+            background-clip: text;
+            color: transparent;
+            background-image: linear-gradient(to right, #B38295, #9690F0);
+        }
+    }
+.delete {
+    color: #E14545;
+} 
+}
+    
+.choice {
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    button {
+        width: 52px;
+        background-color: #1F2937;
+        border: none;
+    }
+    img {
+        background-color: #1F2937;
+        width: 25px;
+    }
+}
+.cancel {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer {
+    position: absolute;
+    font-size: 10px;
+    color: #B6C0A8;
+    top: 10px;
+    right: 10px;
+    a {
+        color: #B6C0A8;
+        &:hover {
+            color: #778671;
+        }
+    }
+}
