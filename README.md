@@ -10,13 +10,6 @@
   
 - **Delete Tasks:** 🗑️ Remove unnecessary tasks.
 
-## ✨ How to Use
-
-1. Clone the repository to your computer:
-   ```bash
-   git clone https://github.com/your-username/your-repository.git
-2. Open the index.html file in your web browser.
-3. Start managing your to-do list!
 
 ## 🚀 Demo
 A live demo is available [Game Demo](https://to-do-inky-pi.vercel.app/).
